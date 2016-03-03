@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+  <name>change f13 to caps lock</name>
+    <identifier>private.change_f13_and_caps_lock</identifier>
+    <autogen>__KeyToKey__ KeyCode::F13, KeyCode::CAPSLOCK</autogen>
+  </item>
+  <item>
+  <name>change bloc num to backquote</name>
+    <identifier>private.change_blocnum_and_backquote</identifier>
+    <autogen>__KeyToKey__ KeyCode::KEYPAD_CLEAR, KeyCode::BACKQUOTE</autogen>
+  </item>
+</root>
