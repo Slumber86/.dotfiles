@@ -26,12 +26,12 @@ atom-text-editor {
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
+atom-text-editor.editor .cursor {
   // border-color: red;
 }
-.editor, atom-text-editor::shadow {
+.editor, atom-text-editor {
   font-weight: 200; //Operator is better light
-.comment {
+.syntax--comment {
 
   font-style: italic;
 }
