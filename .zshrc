@@ -1,9 +1,10 @@
-source "$HOME/.antigen/antigen.zsh"
+#installed antigen with homebrew
+source /usr/local/share/antigen/antigen.zsh
 
-antigen-bundle mafredri/zsh-async
-antigen-bundle git
+antigen bundle mafredri/zsh-async
+antigen bundle git
 antigen bundle sindresorhus/pure
-antigen-bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
