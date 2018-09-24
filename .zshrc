@@ -19,3 +19,5 @@ export PATH=~/bin:$PATH
 HISTFILE=$HOME/.zhistory # where the file will be saved
 HISTSIZE=1000 # the size in bytes it can grow up to
 SAVEHIST=1000 # thr maximum number of commands to save I guess
+
+export ERL_AFLAGS="-kernel shell_history enabled"
