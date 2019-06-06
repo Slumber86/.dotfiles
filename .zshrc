@@ -21,3 +21,8 @@ HISTSIZE=1000 # the size in bytes it can grow up to
 SAVEHIST=1000 # thr maximum number of commands to save I guess
 
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# fh - repeat history
+fh() {
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
+}
